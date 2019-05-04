@@ -29,4 +29,4 @@ const Root = () => {
 
 ReactDOM.render(<Root />, document.getElementById('root'));
 
-serviceWorker.unregister();
+serviceWorker.register();
